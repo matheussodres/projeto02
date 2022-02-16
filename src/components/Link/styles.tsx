@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import * as T from './types'
 
-export const Navbar = styled.nav<T.Navbar>`
+export const Link = styled.link<T.Link>`
   color: red;
   cursor: pointer;
 `

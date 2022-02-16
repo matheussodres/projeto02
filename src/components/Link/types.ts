@@ -1,5 +1,5 @@
 import { ReactNode } from 'react'
 
-export type Navbar = {
+export type Link = {
   children: ReactNode
 }
