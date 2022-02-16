@@ -5,9 +5,9 @@ import { Wrapper, Nav, Link } from '../components'
 const Home: NextPage = () => {
   return (
     <div className="wrapper">
-      <Wrapper children={undefined} height={'50px'} width={'100px'}></Wrapper>
-      <Nav></Nav>
-      <Link></Link>
+      <Wrapper children={undefined}></Wrapper>
+      <Nav children={undefined}></Nav>
+      <Link children={undefined}></Link>
       <span className="text">Olá mundo</span>
       <nav className="nav">
         <a className="link" href="https://www.facebook.com">

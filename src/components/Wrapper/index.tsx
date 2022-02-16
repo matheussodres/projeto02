@@ -1,12 +1,8 @@
 import * as S from './styles'
 import * as T from './types'
 
-function Wrapper({ children, height, width }: T.Wrapper) {
-  return (
-    <S.Wrapper height={height} width={width}>
-      {children}
-    </S.Wrapper>
-  )
+function Wrapper({ children }: T.Wrapper) {
+  return <S.Wrapper>{children}</S.Wrapper>
 }
 
 export default Wrapper

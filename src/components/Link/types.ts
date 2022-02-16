@@ -1,7 +1,5 @@
 import { ReactNode } from 'react'
 
-export type Wrapper = {
+export type Navbar = {
   children: ReactNode
-  height: string | number
-  width: string | number
 }
