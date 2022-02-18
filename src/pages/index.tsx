@@ -12,7 +12,8 @@ const Home: NextPage = () => {
       <nav className="nav">
         <a className="link" href="https://www.facebook.com">
           {'Eu sou um link'}
-        </a>
+        </a>{' '}
+        | {''}
         <a className="link" href="https://www.github.com">
           {'Eu sou outro link'}
         </a>
