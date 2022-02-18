@@ -1,6 +1,7 @@
 /* eslint-disable react/no-children-prop */
 import type { NextPage } from 'next'
 import { Wrapper, Nav, Link } from '../components'
+import ReactPlayer from 'react-player'
 
 const Home: NextPage = () => {
   return (
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
         | {''}
         <a className="link" href="https://www.github.com">
           {'Eu sou outro link'}
+          <ReactPlayer url="https://www.youtube.com/watch?v=ckfjX0B-KfM" />
         </a>
       </nav>
     </div>
