@@ -4,4 +4,5 @@ import * as T from './types'
 export const Navbar = styled.nav`
   background: silver;
   color: black;
+  text-align: center;
 `
