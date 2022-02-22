@@ -1,15 +1,14 @@
-/* eslint-disable react/no-children-prop */
 import type { NextPage } from 'next'
-import { Wrapper, Nav, Link } from '../components'
+import { Wrapper, Nav, Link, Form } from '../components'
 import ReactPlayer from 'react-player'
 import { Button } from '../components/Button/styles'
 
 const Home: NextPage = () => {
   return (
     <div className="wrapper">
-      <Wrapper children={undefined}></Wrapper>
-      <Nav children={undefined}></Nav>
-      <Link children={undefined}></Link>
+      <Wrapper>children={}</Wrapper>
+      <Nav>children={}</Nav>
+      <Link>children={}</Link>
       <span className="text">Olá mundo</span>
       <nav className="nav">
         <a className="link" href="https://www.facebook.com">
@@ -23,7 +22,10 @@ const Home: NextPage = () => {
             width={150}
             height={200}
           />
-          <Button children={undefined} wight={150} height={200}></Button>
+          <Button wight={150} height={200}>
+            children={}
+          </Button>
+          <Form>children={}</Form>
         </a>
       </nav>
     </div>
