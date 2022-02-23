@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import { Field, Form } from '../components'
-import ReactPlayer from 'react-player'
-import { Button } from '../components/Button/styles'
+/* import ReactPlayer from 'react-player'
+ import { Button } from '../components/Button/styles' */
 
 const Home: NextPage = () => {
   return (
