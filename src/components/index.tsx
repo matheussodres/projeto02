@@ -1,4 +1,7 @@
 export { default as Wrapper } from './Wrapper'
 export { default as Nav } from './Nav'
 export { default as Link } from './Link'
+export { default as Label } from './Field/Label'
+export { default as Input } from './Field/Input'
+export { default as Field } from './Field'
 export { default as Form } from './Form'

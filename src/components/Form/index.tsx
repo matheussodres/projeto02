@@ -1,8 +1,8 @@
 import * as S from './styles'
 import * as T from './types'
 
-function Form({ children }: T.Form) {
-  return <S.Form></S.Form>
+function Navbar({ children }: T.Navbar) {
+  return <S.Navbar>{children}</S.Navbar>
 }
 
-export default Form
+export default Navbar
