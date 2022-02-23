@@ -1,15 +1,15 @@
 import type { NextPage } from 'next'
-import { Wrapper, Nav, Link, Form } from '../components'
+import { Field, Form } from '../components'
 import ReactPlayer from 'react-player'
 import { Button } from '../components/Button/styles'
 
 const Home: NextPage = () => {
   return (
     <div className="wrapper">
-      <Wrapper>children={}</Wrapper>
+      {/* <Wrapper>children={}</Wrapper>
       <Nav>children={}</Nav>
-      <Link>children={}</Link>
-      <span className="text">Olá mundo</span>
+      <Link>children={}</Link> */}
+      {/* <span className="text">Olá mundo</span>
       <nav className="nav">
         <a className="link" href="https://www.facebook.com">
           {'Eu sou um link qualquer'}
@@ -22,12 +22,13 @@ const Home: NextPage = () => {
             width={150}
             height={200}
           />
-          <Button wight={150} height={200}>
-            children={}
-          </Button>
-          <Form>children={}</Form>
+          <Button wight={150} height={200}></Button>
+          
         </a>
-      </nav>
+      </nav> */}
+      <Form>
+        <Field.Text label="Email" name="email" type="email"></Field.Text>
+      </Form>
     </div>
   )
 }
